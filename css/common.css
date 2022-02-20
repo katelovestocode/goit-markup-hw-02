@@ -29,14 +29,14 @@ body {
 
 /* Logo */
 .logo {
-  color: var(--black-text-color);
-}
-.logo span {
   color: var(--accent-blue-color);
 }
-/* .logo:hover { 
-    color:#2196f3;
-} */
+.logo .top {
+  color: var(--black-text-color);
+}
+.logo .bottom {
+  color: var(--white-color);
+}
 
 /* Site Navigation */
 .site-nav .link {
@@ -49,11 +49,6 @@ body {
 .site-nav .link.current {
   color: var(--accent-blue-color);
 }
-
-/* Section */
-/* .section .section-title {
-  color: #212121;
-} */
 
 /* Contact Info Header */
 .contact-email,
@@ -69,41 +64,9 @@ body {
   color: var(--accent-blue-color);
 }
 
-/* Hero */
-.hero {
-  background-color: var(--secondary-dark-bcg-color);
-}
-.hero-title {
-  color: var(--white-color);
-}
-/* Button */
-.button {
-  background-color: var(--accent-blue-color);
-  color: var(--white-color);
-}
-
-/* Features */
-.features .text {
-  color: var(--secondary-text-color);
-}
-
-/* Our Team */
-.team {
-  background-color: var(--third-bcg-color);
-}
-.team .text {
-  color: var(--secondary-text-color);
-}
-
 /* Footer */
 footer {
   background-color: var(--secondary-dark-bcg-color);
-}
-.logo-footer .web {
-  color: var(--accent-blue-color);
-}
-.logo-footer .studio {
-  color: var(--white-color);
 }
 .address-location {
   color: var(--white-color);

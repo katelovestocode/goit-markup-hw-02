@@ -1,0 +1,39 @@
+/* Hero */
+.hero {
+  background-color: var(--secondary-dark-bcg-color);
+}
+.hero-title {
+  color: var(--white-color);
+}
+
+/* Button */
+.button {
+  background-color: var(--accent-blue-color);
+  color: var(--white-color);
+}
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
+
+/* Features */
+.features .text {
+  color: var(--secondary-text-color);
+}
+.hidden-element {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  margin-top: -1px;
+}
+
+/* Our Team */
+.team {
+  background-color: var(--third-bcg-color);
+}
+.team .text {
+  color: var(--secondary-text-color);
+}

@@ -1,0 +1,15 @@
+/* Filter buttons */
+.filter {
+  background-color: var(--third-bcg-color);
+  color: var(--primary-text-color);
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--accent-blue-color);
+  color: var(--white-color);
+}
+
+.text {
+  color: var(--secondary-text-color);
+}
