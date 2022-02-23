@@ -114,6 +114,10 @@ body {
   background-color: #188ce8;
 }
 
+button {
+  border: none;
+}
+
 /* Features */
 .features .text {
   color: var(--secondary-text-color);
